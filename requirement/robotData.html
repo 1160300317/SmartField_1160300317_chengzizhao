@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8"/>
+    <title>设备数据</title>
+    <link href="css/table.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color: #ecf0f5;font-family: 微软雅黑;color: #47505%9;min-width: 1000px;overflow: auto">
+<div class="from_main">
+    <div class="news_check">
+        <div class="check_left l_left">
+            <label>时间段：</label>
+            <input type="month" placeholder="" style="margin-right: 10px">
+            <input type="month" placeholder="">
+            <button class="check_btn">查询</button>
+        </div>
+        <div class="check_right r_right">
+
+            <a class="btn btn-default">打印</a>
+            <a class="btn btn-default">导出</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div style="padding: 0 10px 0 10px ;border: 1px #ccc solid;background-color: #fff;height: 88%;overflow: auto">
+        <h1 class="form_h1">农业机器人设备信息</h1>
+        <p class="from_p">日期：2019-2-30 至 2020-4-30</p>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>工作时长</th>
+                <th>工作状态</th>
+                <th>电量</th>
+                <th>信息1</th>
+                <th>信息2</th>
+                <th>信息3</th>
+                <th>信息4</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>2</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>3</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>4</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>5</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>6</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>8</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>9</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+			<tr>
+                <td>10</td>
+                <td>1500</td>
+                <td>14.25%</td>
+                <td>23.12%</td>
+                <td>12%.05%</td>
+                <td>24.31%</td>
+                <td>26.53%</td>
+                <td>12%.33%</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+</body>
+<script src="js/jquery/jQuery-2.2.0.min.js"></script>
+<script>
+    $(function () {
+        $(".top_btn>a").each(function (index) {
+            $(this).click(function () {
+                $(".top_btn>a").removeClass("active");
+                $(this).addClass("active")
+            })
+        });
+    })
+</script>
+</html>
